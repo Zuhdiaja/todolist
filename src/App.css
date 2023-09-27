@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.app {
+  width: 100%;
+  background: #c40bce;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.juhdi{
+  padding-left: 50%;
+}
+
+.todo-list {
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 6px;
+  width: 35%;
+  height: 60%;
+  padding: 4rem 3rem;
+}
+
+.todo-title {
+  margin-bottom: 4rem;
+}
+.todo-title h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 32px;
+}
+.todo-title p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+.form {
+  margin-bottom: 3rem;
+}
+.btn-todo{
+  display: flex;
+}
+
+button {
+  padding: 2px 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.btn-complete {
+  font-size: 20px;
+  color: #198724;
+}
+.btn-update {
+  font-size: 20px;
+  color: #209cee;
+}
+.btn-remove {
+  font-size: 20px;
+  color: #dc3545;
+}
